@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
 	header,
 	article,
@@ -19,7 +19,7 @@
 	}
 
 	body {
-		min-height: 150vh;
+		min-height: 200vh;
 		display: flex;
 		flex-direction: column;
 	}
@@ -34,7 +34,7 @@
 
 	nav {
 	  	position: absolute;
-		top: 85%;
+		top: 105%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		min-height: 100vh;
@@ -61,10 +61,10 @@
 		border: double 10px #cb3870;
 		color: #cb3870;
 		word-break: keep-all;
-		font-size: 30px;
+		font-size: 25px;
 		align-items: center;
 		line-height: 2.0;
-		height: 1200px;
+		height: 1150px;
 		width: 550px;
 	}
 
